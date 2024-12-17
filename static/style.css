@@ -1,4 +1,28 @@
-:root {
-	background: hsl(223, 20%, 10%);
-	color: white;
+html {
+	background: url("./assets/images/bg.jpg");
+	background-size: cover;
+}
+
+.keys {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.key {
+	font-size: 2rem;
+	color: yellow;
+	border: dashed white 2px;
+	padding: 1rem;
+	width: 10rem;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+	transform: scale(1.1);
+	border-color: gold;
+	box-shadow: 0 0 1rem yellow;
 }
